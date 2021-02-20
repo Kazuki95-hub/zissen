@@ -1,0 +1,145 @@
+header {
+    height:100px;
+    background-color:white;
+}
+
+.header {
+    height:70px;
+}
+
+.logo{
+    width:80px;
+    height:25px;
+    padding:30px;
+}
+
+.header-wrap {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin-right: 35px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.header-nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+/* ここからアイキャッチ */
+
+#eyecatch {
+    height:1800px;
+    background: url("../img/mv.png");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.eyecatch-text {
+    color:white;
+    top:50%;
+    left:16%;
+    right:10%;
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.eyecatch-text h1 {
+    font-size: 50px;
+}
+
+.eyecatch-text p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#eyecatch-bottom {
+    color: white;
+    background-color: black;
+    height:300px;
+    position: relative;
+}
+
+.eyecatch-bottom-text {
+    position:absolute; 
+    left:5%;
+    top:20%;
+    text-align: left;
+}
+
+.eyecatch-bottom-text h2 {
+    font-size: 30px;
+    padding:20px 0  20px 0;
+}
+
+.eyecatch-bottom-text p{
+    width:95%;
+    line-height:22px;
+} 
+
+
+/* ここからservice */
+
+.service-title {
+    text-align:center;
+    font-size:40px;
+    padding-top:40px;
+}
+
+.service-content {
+    width:40%;
+    padding: 15px;
+}
+
+.service-content img {
+    width:500px;
+    height:280px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.service-content h2 {
+    padding:10px 0;
+    font-size: 20px;
+}
+
+.service-content p{
+    line-height: 20px;
+}
+
+.service {
+    font-size: 20px;
+    height:40px;
+}
+
+.service-btn {
+    height:50px;
+    width:400px;
+    background-color:rgb(231, 55, 55);
+    margin: 0 auto;
+}
+
+.service-btn a{
+    color:white;
+    text-decoration:none;
+    width:400px;
+    height:50px;
+    margin: 0 auto;
+}
