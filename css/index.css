@@ -100,19 +100,20 @@ header {
 
 .service-content {
     width:40%;
-    padding: 15px;
+    padding: 20px;
 }
 
 .service-content img {
-    width:500px;
-    height:280px;
+    width:530px;
+    height:310px;
 }
 
 .service-list {
     display: flex;
     flex-wrap:wrap;
-    align-items: center;
-    width: 100%;
+    /* align-items: center; */
+    width:1000px;
+    margin: 0 auto;
 }
 
 .service-content h2 {
