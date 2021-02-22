@@ -140,7 +140,13 @@ header {
     text-decoration:none;
     line-height: 50px;
     font-weight:bold;
-              
+    
+}
+
+.service-btn a {
+    padding:25px;
+    padding-right:95px;
+    padding-left: 95px;
 }
 
 .service-btn:hover {
@@ -180,7 +186,13 @@ header {
     margin-right:53px;
     font-weight: bold;
     transition: background-color 0.8s;
-    
+}
+
+.news-btn a{
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left:15px;
 }
 
 .news-btn:hover {
@@ -252,6 +264,15 @@ header {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+.blog-btn a{
+    padding:25px;
+    padding-right:95px;
+    padding-left: 95px;
+}
+
+.blog-btn:hover {
+    background-color:rgb(238, 170, 170);
+}
 
 .blog-btn-text {
     color:white;
@@ -265,13 +286,13 @@ header {
 .concept {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: center; 
+    width:100%;
 }
 
 .company {
-    height:220px;
-    width: 50%;
     background-color:red;
+    width:50%;
     transition:background-color 0.8s;
 }
 
@@ -280,18 +301,21 @@ header {
 }
 
 .company a {
-   line-height: 230px;
-   font-weight:bold;
-   color:white;
-   font-size:20px;
-   text-decoration:none;
+    line-height: 230px;
+    font-weight:bold;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:190px;
+    padding-left: 190px;
 }
 
 .recruit {
-    height:220px;
-    width: 50%;
     background-color:black;
     transition:background-color 0.8s;
+    width:50%;
 }
 
 .recruit:hover {
@@ -299,10 +323,92 @@ header {
 }
 
 .recruit a{
-    line-height: 230px;
-   font-weight:bold;
-   color:white;
-   font-size:20px;
-   text-decoration:none;
+    line-height: 220px;
+    font-weight:bold;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:190px;
+    padding-left: 190px;
 }
 
+.contact{
+    height:260px;
+    background-color: rgb(238, 235, 235);
+    text-align: center;
+    margin-top:80px;
+}
+
+.contact h2 {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom:20px;
+}
+
+.contact-btn {
+    height:45px;
+    width:350px;
+    background-color:rgb(243, 20, 20);
+    margin: 0 auto;
+    text-align: center;
+    transition: background-color 0.8s;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.contact-btn-text {
+    color:white;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.contact-btn a {
+    padding:25px;
+    padding-right:130px;
+    padding-left: 120px;
+}
+
+.contact-btn:hover{
+    background-color: rgb(238, 170, 170);
+}
+
+/* ここからfooter */
+
+.footer{
+    color: white;
+}
+
+.footer-concept {
+    height:50px;
+    background-color: black;
+    color:white;
+    line-height:50px;
+    font-size:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    padding-left:20px;
+}
+
+.footer-list ul{
+    display:flex;
+}
+
+.footer-list li {
+    list-style:none;
+    padding-right:20px;
+}
+
+.footer-list a {
+    color:white;
+    text-decoration: none;
+}
+
+.footer li + li {
+    border-right: 1px solid white;
+}
