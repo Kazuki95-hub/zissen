@@ -338,7 +338,7 @@ header {
 
 /* ここからでかいボタン */
 
-.concept {
+/* .concept {
     display: flex;
     flex-wrap: wrap;
     text-align: center; 
@@ -388,7 +388,35 @@ header {
     padding-bottom:100px;
     padding-right:190px;
     padding-left: 190px;
+} */
+
+.concept {
+    display: flex;
 }
+
+.concept a {
+    color:white;
+    text-decoration: none;
+    padding: 280px;
+    line-height: 100px;
+}
+
+.company {
+    position: relative;
+    background-color:red;
+}
+
+.compnay-btn {
+    position:absolute;
+    
+}
+
+.recruit {
+    position: relative;
+    background:black;
+}
+
+/* ここからお問合せ */
 
 .contact{
     height:260px;
