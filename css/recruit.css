@@ -93,10 +93,20 @@
 } */
 
 .recruit-info-table {
-    width: 100%;
+    width: 85%;
     border: 1px solid black;
     margin-top: 20px;
     box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.recruit-info-table table {
+    width: 100%;
+}
+
+.recruit-info-table:first-child{
+    border-top: none;
 }
 
 .recruit-info-table th {
@@ -105,7 +115,7 @@
     border-right: 1px solid black;
     background-color :rgb(241, 240, 240);
     border-top: 1px solid black;
-    padding:10px 100px 10px 100px;
+    margin: 0 auto;
 }
 
 .recruit-info-table td {
