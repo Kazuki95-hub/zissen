@@ -392,28 +392,51 @@ header {
 
 .concept {
     display: flex;
+    align-items:center;
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 80px 0;
 }
+
+.company{
+    width: 50%;
+}
+
+.company-btn {
+    display:inline-block;
+    width: 100%;
+    line-height: 10;
+    text-align:center;
+    background-color: rgb(247, 52, 52);
+    transition: 0.3s;
+}
+
+.company-btn:hover {
+    background-color:rgb(247, 202, 202);
+}
+
 
 .concept a {
-    color:white;
+    color: white;
     text-decoration: none;
-    padding: 280px;
-    line-height: 100px;
-}
-
-.company {
-    position: relative;
-    background-color:red;
-}
-
-.compnay-btn {
-    position:absolute;
-    
 }
 
 .recruit {
-    position: relative;
-    background:black;
+    width: 50%;
+}
+
+.recruit-btn {
+    display: inline-block;
+    width: 100%;
+    line-height:10;
+    text-align: center;
+    background-color: black;
+    transition:0.3s;    
+}
+
+.recruit-btn:hover {
+    background-color: rgb(197, 195, 195);
 }
 
 /* ここからお問合せ */

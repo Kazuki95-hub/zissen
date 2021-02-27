@@ -83,6 +83,23 @@
     font-size: 15px;
 }
 
+@media screen and (max-width: 768px) {
+    .blog{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .blog-wrap {
+        display: block;
+    }
+
+    .blog-content img {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
 .footer{
     color: white;
 }
@@ -165,4 +182,29 @@
 
 .contact-btn:hover{
     background-color: rgb(238, 170, 170);
+}
+
+@media screen and (max-width:768px) {
+
+    .copyright {
+        padding-top: 120px;
+        padding-left: 120px;
+    }
+
+    .footer-concept {
+        height: 280px;
+        line-height:30px;
+        font-size:13px;
+    }
+
+    .footer-list li {
+        display:block;
+        border:none;
+    }
+
+    .footer-list{
+        padding-right: 120px;
+        padding-top:40px;
+    } 
+    
 }

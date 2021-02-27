@@ -79,6 +79,24 @@
     padding-right: 550px;
 }
 
+@media screen and (max-width: 768px){
+    .company-table{
+        width: 85%;
+    }
+
+    .company-table tr {
+        padding-right: 70%;
+    }
+
+    .company-table th {
+        padding: 0 50px 0 50px;
+    }
+
+    .company-table td {
+        padding-right: ;
+    }
+}
+
 footer{
     color: white;
 }
@@ -161,4 +179,29 @@ footer{
 
 .contact-btn:hover{
     background-color: rgb(238, 170, 170);
+}
+
+@media screen and (max-width:768px) {
+
+    .copyright {
+        padding-top: 120px;
+        padding-left: 120px;
+    }
+
+    .footer-concept {
+        height: 280px;
+        line-height:30px;
+        font-size:13px;
+    }
+
+    .footer-list li {
+        display:block;
+        border:none;
+    }
+
+    .footer-list{
+        padding-right: 120px;
+        padding-top:40px;
+    } 
+    
 }

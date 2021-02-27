@@ -84,6 +84,22 @@
     line-height: 25px;
 }
 
+@media screen and (max-width: 768px) {
+    #service {
+        width:85%;
+        margin:0 auto;
+    }
+
+    #service img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-content {
+        display:block;
+    }
+}
+
 .contact{
     height:300px;
     background-color: rgb(238, 235, 235);
@@ -169,4 +185,29 @@
 
 .footer-list li:first-child {
     border-left: none;
+}
+
+@media screen and (max-width:768px) {
+
+    .copyright {
+        padding-top: 120px;
+        padding-left: 120px;
+    }
+
+    .footer-concept {
+        height: 280px;
+        line-height:30px;
+        font-size:13px;
+    }
+
+    .footer-list li {
+        display:block;
+        border:none;
+    }
+
+    .footer-list{
+        padding-right: 120px;
+        padding-top:40px;
+    } 
+    
 }
