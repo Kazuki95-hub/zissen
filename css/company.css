@@ -53,13 +53,16 @@
 }
 
 .company-table {
-    width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
     font-size: 18px;
     padding-bottom: 110px;
     padding-top:20px;
 }
 
+.table {
+    width: 100%;
+}
 
 .company-table tr {
     border-top:1px solid black;
@@ -85,7 +88,7 @@
     }
 
     .company-table tr {
-        padding-right: 70%;
+        padding-right: ;
     }
 
     .company-table th {
