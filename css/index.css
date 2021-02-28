@@ -287,6 +287,18 @@ header {
     font-weight:bold;
 }
 
+.news-content a {
+    text-decoration:none;
+    color:black;
+    transition: 0.8s;
+}
+
+.news-a:hover{
+    background-color: rgb(223, 223, 223);
+    opacity:0.7s;
+
+}
+
 @media screen and (max-width: 768px){
     .news-text {
         width: 85%;
