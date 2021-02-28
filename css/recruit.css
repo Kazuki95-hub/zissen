@@ -69,8 +69,6 @@
     .header-nav {
         display: none;
     }
-
-
 }
 
 
@@ -142,7 +140,20 @@
     padding: 15px 100px 15px 10px ;
 }
 
+@media screen and (max-width: 768px){
+    .recruit-whole {
+        width: 85%;
+        margin: 0 auto;
+    }
 
+    .recruit-info-table {
+        margin-left: 0px;
+    }
+
+    .recruit-info-text {
+        width: 100%;
+    }
+}
 
 .footer{
     color: white;
