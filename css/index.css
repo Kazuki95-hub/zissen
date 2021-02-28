@@ -57,7 +57,7 @@ header {
         display: block;
         width: 35px;
         height: 2px;
-        /* background-color: white; */
+        background-color: black;
         transition:0.8s;
     }
 
@@ -81,7 +81,7 @@ header {
 /* ここからアイキャッチ */
 
 #eyecatch {
-    height:1800px;
+    height:80vh;
     background: url("../img/mv.png");
     background-size: cover;
     background-position: center;
@@ -92,12 +92,13 @@ header {
 .eyecatch-text {
     color:white;
     top:50%;
-    left:16%;
-    right:10%;
+    left:8%;
+    right:8%;
     margin: 0 auto;
     position: absolute;
     display: block;
     text-align: center;
+    line-height: 85px;
 }
 
 .eyecatch-text h1 {
@@ -106,7 +107,7 @@ header {
 
 .eyecatch-text p {
     font-size: 20px;
-    padding-top: 10px;
+    margin-top:-20px;
 }
 
 #eyecatch-bottom {
@@ -114,6 +115,8 @@ header {
     background-color: black;
     height:300px;
     position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .eyecatch-bottom-text {
@@ -133,19 +136,29 @@ header {
     line-height:22px;
 } 
 
+@media screen and (max-width:542px) {
+    #eyecatch-bottom{
+        height: 400px;
+    }
+
+    #eyecatch{
+        height: 85vh;
+    }
+}
+
 
 /* ここからservice */
 
 .service-title {
     text-align:center;
-    font-size:40px;
-    padding-top:40px;
+    font-size:30px;
+    padding-top:70px;
+    padding-bottom: 30px;   
 }
 
 .service-content {
     width: 45%;
-    padding: 20px;
-    margin:0 auto;
+    padding: 10px;
 }
 
 .service-content img {
@@ -157,8 +170,9 @@ header {
     display: flex;
     flex-wrap:wrap;
     /* align-items: center; */
-    width:100%;
-    margin: 0 auto;
+    width:95%;
+    margin-left:6%;
+    margin-right: 3%;
 }
 
 .service-content h2 {
@@ -369,59 +383,6 @@ header {
 }
 
 
-/* ここからでかいボタン */
-
-/* .concept {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center; 
-    width:100%;
-}
-
-.company {
-    background-color:red;
-    width:50%;
-    transition:background-color 0.8s;
-}
-
-.company:hover{
-    background-color:rgb(238, 170, 170)
-}
-
-.company a {
-    line-height: 230px;
-    font-weight:bold;
-    color:white;
-    font-size:20px;
-    text-decoration:none;
-    padding-top:100px;
-    padding-bottom:100px;
-    padding-right:190px;
-    padding-left: 190px;
-    max-height:230px;
-}
-
-.recruit {
-    background-color:black;
-    transition:background-color 0.8s;
-    width:50%;
-}
-
-.recruit:hover {
-    background-color: rgb(185, 175, 175);
-}
-
-.recruit a{
-    line-height: 220px;
-    font-weight:bold;
-    color:white;
-    font-size:20px;
-    text-decoration:none;
-    padding-top:100px;
-    padding-bottom:100px;
-    padding-right:190px;
-    padding-left: 190px;
-} */
 
 .concept {
     display: flex;
@@ -482,7 +443,7 @@ header {
 }
 
 .contact h2 {
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 50px;
     padding-bottom:20px;
 }
@@ -582,6 +543,22 @@ header {
     .footer-list{
         padding-right: 120px;
         padding-top:40px;
-    } 
-    
+    }    
+}
+
+@media screen and (max-width:542px){
+    .footer-concept {
+        display: block;
+        text-align: center;
+    }
+
+    .copyright{
+    padding: 0;
+}
+
+    .footer-list {
+        width: 100%;
+       text-align:center;
+       padding-right: 0;
+    }
 }

@@ -34,6 +34,46 @@
     text-decoration:none;
 }
 
+@media screen and (max-width:768px){
+    #hamburger {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        cursor:pointer;
+        z-index: 100;
+        top: 15px;
+        right: 20px;
+        color:black;
+    }
+
+    #hamburger span {
+        position:absolute;
+        left: 2px;
+        display: block;
+        width: 35px;
+        height: 2px;
+        background-color: black;
+        transition:0.8s;
+    }
+
+    #hamburger span:nth-of-type(1){
+        top: 10px;
+    }
+    #hamburger span:nth-of-type(2){
+        top: 20px;
+    }
+    #hamburger span:nth-of-type(3){
+        top: 30px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+
+}
+
+
 #eyecatch {
     height: 270px;
     background:url("../img/mv.png");
@@ -52,6 +92,8 @@
     line-height:350px;
 }
 
+
+
 .recruit-info-text {
     width: 1000px;
     margin: 0 auto;
@@ -68,37 +110,13 @@
     padding-bottom: 20px;
 }
 
-/* .recruit-info-table {
-    width: 1000px;
-    margin: 0 auto;
-    max-height: 205px;
-    padding-bottom:110px;   
-}
-
-
-
-.recruit-info-table th  {
-    background-color: rgb(236, 234, 234);
-    line-height: 50px;
-    padding-right: 110px;
-    padding-left: 110px;
-    border: 1px solid black;
-}
-
-.recruit-info-table td {
-    padding-left:10px;
-    border: 1px solid black;
-    padding-right: 5px;
-    padding-right: 559px;   
-} */
-
 .recruit-info-table {
-    width: 85%;
+    width: 82%;
     border: 1px solid black;
     margin-top: 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .recruit-info-table table {
@@ -121,7 +139,7 @@
 .recruit-info-table td {
     width: 70%;
     border-top:1px solid black;
-    padding: 10px 120px 10px 10px ;
+    padding: 15px 100px 15px 10px ;
 }
 
 
@@ -234,4 +252,21 @@
         padding-top:40px;
     } 
     
+}
+
+@media screen and (max-width:542px){
+    .footer-concept {
+        display: block;
+        text-align: center;
+    }
+
+    .copyright{
+    padding: 0;
+}
+
+    .footer-list {
+        width: 100%;
+       text-align:center;
+       padding-right: 0;
+    }
 }
