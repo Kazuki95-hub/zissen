@@ -132,10 +132,22 @@
     }
 
     .company-table td {
-        padding-right: 200px;
+        padding-right: 10%;
     }
     .company-table th {
-        padding-left: 50px;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width:542px){
+    .company-table td {
+        padding-right: 5%;
+    }
+
+    .company-table th {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
